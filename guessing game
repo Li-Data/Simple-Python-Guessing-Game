@@ -1,0 +1,13 @@
+import random 
+
+score=10
+randomnumber = random.randint(1,10)
+
+while True: 
+    usernumberinput = int(input('Guess : '))
+
+    if usernumberinput == randomnumber: 
+        print( ' Congratulations your score is ' + str(score))
+        break
+    else: 
+        print( ' Sorry xa, harda ')
